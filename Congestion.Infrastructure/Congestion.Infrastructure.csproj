@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.10" />
+    <PackageReference Include="Nager.Date" Version="1.36.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\netcore\congestion-tax-calculator-net-core.csproj" />
+  </ItemGroup>
+
+</Project>

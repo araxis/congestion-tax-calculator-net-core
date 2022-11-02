@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8EF8949-BF6D-412B-8CE7-C8664861C36E}"
+	ProjectSection(SolutionItems) = preProject
+		questions.md = questions.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "congestion-tax-calculator-net-core", "..\..\Users\meisa\source\repos\congestion-tax-calculator\netcore\congestion-tax-calculator-net-core.csproj", "{F7D854AB-1B3E-4338-A308-22CC0F122740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion.Api", "Congestion.Api\Congestion.Api.csproj", "{9CD18918-2FE9-461A-8EAB-DFF45328CACD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion.Infrastructure", "Congestion.Infrastructure\Congestion.Infrastructure.csproj", "{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion.Tests", "Congestion.Tests\Congestion.Tests.csproj", "{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D854AB-1B3E-4338-A308-22CC0F122740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D854AB-1B3E-4338-A308-22CC0F122740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D854AB-1B3E-4338-A308-22CC0F122740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D854AB-1B3E-4338-A308-22CC0F122740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD18918-2FE9-461A-8EAB-DFF45328CACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD18918-2FE9-461A-8EAB-DFF45328CACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD18918-2FE9-461A-8EAB-DFF45328CACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD18918-2FE9-461A-8EAB-DFF45328CACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7D854AB-1B3E-4338-A308-22CC0F122740} = {D8EF8949-BF6D-412B-8CE7-C8664861C36E}
+		{9CD18918-2FE9-461A-8EAB-DFF45328CACD} = {D8EF8949-BF6D-412B-8CE7-C8664861C36E}
+		{7FEB1FAC-049B-4252-8E04-E31EBA45AF1D} = {D8EF8949-BF6D-412B-8CE7-C8664861C36E}
+		{F9E74ACC-96FB-4E2F-B5CC-E1683E03FC29} = {D8EF8949-BF6D-412B-8CE7-C8664861C36E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72A1E6D8-08DB-49B8-AF59-26E8E8CFC67D}
+	EndGlobalSection
+EndGlobal
